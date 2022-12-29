@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>emblem-default.png</file>
+    </qresource>
+</RCC>

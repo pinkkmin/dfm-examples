@@ -1,0 +1,41 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Actions=Action1;Action2;Action3;Action4;Action5;Action6;
+Name=文件安全
+Icon=Action
+    
+Comment=This is a test file!!!
+
+#支持xxx.foo文件
+X-DDE-FileManager-SupportSuffix=foo
+#file://
+X-DDE-FileManager-SupportSchemes=file
+
+#仅支持单选文件
+X-DDE-FileManager-MenuTypes=MultiFiles
+
+[Desktop Action Action1]
+Exec=/usr/bin/foo --foo1 %f
+Name=批量加密
+
+[Desktop Action Action2]
+Exec=/usr/bin/foo --foo2 %f
+Name=批量解密
+
+[Desktop Action Action3]
+Exec=/usr/bin/foo --foo2 %f
+Name=批量授权
+
+[Desktop Action Action4]
+Exec=/usr/bin/foo --foo2 %f
+Name=批量修改密级
+
+[Desktop Action Action5]
+Exec=/usr/bin/foo --foo2 %f
+Name=批量权限申请
+
+[Desktop Action Action6]
+Exec=/usr/bin/foo --foo2 %f
+Name=外发申请
